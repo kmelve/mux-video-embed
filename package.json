@@ -1,0 +1,19 @@
+{
+  "name": "mux-video-embed",
+  "version": "1.0.0",
+  "description": "Add `?muxVideo=playbackID` to embed a mux video",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "hls.js": "0.12.2",
+    "query-string": "6.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
